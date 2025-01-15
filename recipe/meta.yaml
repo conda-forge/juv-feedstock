@@ -1,5 +1,5 @@
 {% set name = "juv" %}
-{% set version = "0.2.28" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/juv-{{ version }}.tar.gz
-  sha256: d9ed868ea77754ea26a5492f76be352f163328268724bfdb592e5fbfb5019f8b
+  sha256: 9c13b44a25f29a8986f6317d09d3f86aa9e275628ea73e065378b8e937f081ee
 
 build:
   noarch: python
