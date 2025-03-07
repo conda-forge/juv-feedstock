@@ -28,7 +28,7 @@ requirements:
     - rich >=13.9.2
     - tomlkit >=0.13.2
     - whenever >=0.6.12
-    - python-uv >=0.4.25
+    - python-uv >=0.5.18
 
 test:
   imports:
