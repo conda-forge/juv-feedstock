@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: juv
-  version: 0.4.3
+  version: "0.4.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/juv-${{ version }}.tar.gz
-  sha256: 5f2cf97f73359e767948f4c43ae8caa69177ee16b71951ca3d5775f2e3707abd
+  sha256: a7d4aedb1df827f9b3dc7e193cc1a14349a8b27f8f50a6554a56c64ebbc419fc
 
 build:
   number: 0
@@ -31,7 +31,7 @@ requirements:
     - jupytext >=1.16.4
     - rich >=13.9.2
     - tomlkit >=0.13.2
-    - whenever >=0.6.12
+    - whenever >=0.9.1
     - python-uv >=0.7.0,<0.8.0
     # not listed but needed
     - python-tzdata
