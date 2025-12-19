@@ -31,7 +31,7 @@ requirements:
     - jupytext >=1.16.4
     - rich >=13.9.2
     - tomlkit >=0.13.2
-    - whenever >=0.6.12
+    - whenever >=0.9.1
     - python-uv >=0.7.0,<0.8.0
     # not listed but needed
     - python-tzdata
