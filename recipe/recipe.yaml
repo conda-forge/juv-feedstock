@@ -32,7 +32,7 @@ requirements:
     - rich >=13.9.2
     - tomlkit >=0.13.2
     - whenever >=0.9.1
-    - python-uv >=0.7.0,<0.8.0
+    - python-uv >=0.11.0
     # not listed but needed
     - python-tzdata
 
@@ -41,7 +41,9 @@ tests:
       imports:
         - juv
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
   - requirements:
       run:
         - python ${{ python_min }}.*
